@@ -9,7 +9,6 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"entity": "this",
 							"name": {
 								"translate": "stellarity.items.golden_chorus_fruit",
 								"fallback": "Golden Chorus Fruit",
