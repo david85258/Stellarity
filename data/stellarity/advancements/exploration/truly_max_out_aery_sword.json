@@ -9,13 +9,11 @@
 			"fallback": "20 Below Zero",
 			"color": "white"
 		},
-		"description": [
-			{
-				"translate": "stellarity.advancements.truly_max_out_aery_sword.description",
-				"fallback": "Even the grim power of this ice sword has its limits...",
-				"color": "light_gray"
-			}
-		],
+		"description":{
+			"translate": "stellarity.advancements.truly_max_out_aery_sword.description",
+			"fallback": "Even the grim power of this ice sword has its limits...",
+			"color": "light_gray"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

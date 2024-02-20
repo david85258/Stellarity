@@ -8,10 +8,6 @@
 					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"golden_chorus_fruit\",Enchantments:[{}]}"
-						},
-						{
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "stellarity.items.golden_chorus_fruit",
@@ -19,6 +15,10 @@
 								"color": "light_cyan",
 								"italic": false
 							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"golden_chorus_fruit\"}"
 						},
 						{
 							"function": "minecraft:set_lore",
