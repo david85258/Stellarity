@@ -8,20 +8,21 @@
 					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.golden_chorus_fruit",
-								"fallback": "Golden Chorus Fruit",
-								"color": "light_cyan",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_nbt",
 							"tag": "{stellarity.special_item:\"golden_chorus_fruit\",CustomModelData:90000,HideFlags:6,Unbreakable:1b,kohara.fireproof:1b}"
 						},
 						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.golden_chorus_fruit",
+								"fallback": "Golden Chorus Fruit",
+								"color": "#light_cyan",
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:set_lore",
+							"entity": "this",
 							"lore": [
 								"",
 								{
@@ -29,7 +30,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
+							],
+							"replace": true
 						}
 					]
 				}
