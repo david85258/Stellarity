@@ -8,21 +8,21 @@
 					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,kohara.durability:{enabled:1b,max_dur:256},stellarity.special_item:\"golden_chorus_fruit\",kohara.fireproof:1b}"
-						},
-						{
 							"function": "minecraft:set_name",
+							"entity": "this",
 							"name": {
 								"translate": "stellarity.items.golden_chorus_fruit",
 								"fallback": "Golden Chorus Fruit",
-								"color": "light_cyan",
+								"color": "aqua",
 								"italic": false
 							}
 						},
 						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"golden_chorus_fruit\",Enchantments:[{}]}"
+						},
+						{
 							"function": "minecraft:set_lore",
-							"entity": "this",
 							"lore": [
 								"",
 								{
