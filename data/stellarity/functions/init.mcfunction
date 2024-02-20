@@ -233,7 +233,7 @@ bossbar set stellarity:crystal_count max 10
 bossbar set stellarity:crystal_count style notched_10
 # Empress of Light
 bossbar add stellarity:eol {"translate":"stellarity.mobs.empress","fallback":"Empress of Light","color":"#FF55FF"}
-bossbar set stellarity:eol color light_purple
+bossbar set stellarity:eol color pink
 bossbar set stellarity:eol visible true
 bossbar set stellarity:eol players
 bossbar set stellarity:eol max 500
