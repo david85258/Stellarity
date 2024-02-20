@@ -9,14 +9,14 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"golden_chorus_fruit\",CustomModelData:90000,HideFlags:6,Unbreakable:1b,kohara.fireproof:1b}"
+							"tag": "{CustomModelData:90000,kohara.durability:{enabled:1b,max_dur:256},stellarity.special_item:\"golden_chorus_fruit\",kohara.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "stellarity.items.golden_chorus_fruit",
 								"fallback": "Golden Chorus Fruit",
-								"color": "#light_cyan",
+								"color": "#8865AF",
 								"italic": false
 							}
 						},
@@ -26,12 +26,31 @@
 							"lore": [
 								"",
 								{
+									"translate": "stellarity.items.fisher_of_voids.description.1",
+									"fallback": "Its hook is covered in weird mucus,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.fisher_of_voids.description.2",
+									"fallback": "fish from the Void",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.fisher_of_voids.description.3",
+									"fallback": "seem really attracted to it",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
 								}
 							],
-							"replace": true
+							"replace": false
 						}
 					]
 				}
