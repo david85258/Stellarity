@@ -16,7 +16,7 @@
 							"name": {
 								"translate": "stellarity.items.golden_chorus_fruit",
 								"fallback": "Golden Chorus Fruit",
-								"color": "#8865AF",
+								"color": "light_cyan",
 								"italic": false
 							}
 						},
@@ -26,31 +26,11 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.fisher_of_voids.description.1",
-									"fallback": "Its hook is covered in weird mucus,",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.fisher_of_voids.description.2",
-									"fallback": "fish from the Void",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.fisher_of_voids.description.3",
-									"fallback": "seem really attracted to it",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
 								}
-							],
-							"replace": false
+							]
 						}
 					]
 				}
